@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Text, VStack, Link, IconButton, Spinner, Alert, AlertIcon } from "@chakra-ui/react";
-import { useEvents } from "../integrations/supabase/index.js";
+import { useEvents } from "../integrations/supabase/index.ts";
 import { FaHome, FaInfoCircle } from "react-icons/fa";
 
 const Index = () => {
